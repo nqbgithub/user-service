@@ -3,11 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
     <groupId>com.strial.staffe</groupId>
-=======
-    <groupId>com.devil.demo</groupId>
->>>>>>> e8b2fd7bdbf9b3936e305534a89c5c4423e6ba96
     <artifactId>user-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -31,13 +27,8 @@
 
     <dependencies>
         <dependency>
-<<<<<<< HEAD
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-=======
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
->>>>>>> e8b2fd7bdbf9b3936e305534a89c5c4423e6ba96
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -45,14 +36,6 @@
         </dependency>
 
         <dependency>
-<<<<<<< HEAD
-=======
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-
-        <dependency>
->>>>>>> e8b2fd7bdbf9b3936e305534a89c5c4423e6ba96
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
@@ -84,9 +67,6 @@
             </plugin>
         </plugins>
     </build>
-<<<<<<< HEAD
-=======
-
     <repositories>
         <repository>
             <id>spring-milestones</id>
@@ -96,6 +76,5 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
->>>>>>> e8b2fd7bdbf9b3936e305534a89c5c4423e6ba96
+    </repositories> 
 </project>
